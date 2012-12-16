@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Forms</title>
+</head>
+
+<body>
+	<h3><strong>Расскажите немного о себе...</strong></h3>
+    <form name="about yourself" action="../../Downloads/lesson_3/index.html">
+    	<fieldset id="a few words about yourself"> 
+        	<legend><strong>Коротко о себе</strong></legend>
+            <label>Имя: <input type="text" size="46" name="firstname" value=""/></label>
+            <br/>
+            <label>Фамилия: <input type="text" size="40" name="lastname" value=""/></label>
+            <br/>
+            <label>Пол:</label>
+            <label><input type="radio" name="sex" value="man"/>мужской</label>
+            <label><input type="radio" name="sex" value="woman"/>женский</label>
+            <br/>
+            <label>Возраст:  <input type="text" size="3" name="age" value="" /> лет</label>
+        </fieldset>
+        
+        <fieldset id="more about yourself"> 
+        	<legend><strong>Подробнее о себе</strong></legend>
+            <label><input type="radio" name="sex2" value="young man"/>Молодой человек</label>
+            <br/>
+            <label><input type="radio" name="sex2" value="girl"/>Девушка</label>
+			<br/>
+            <input type="text" name="date of birth" value=""/><label> Дата рождения</label><br/>
+            <input type="text" name="marital status" value=""/><label> Семейное положение</label><br/>
+            <input type="text" name="social status" value=""/><label> Социальный статус</label><br/>
+            <input type="text" name="place of residence" value=""/><label> Место жительства</label><br/>
+            
+            <p><strong>Что вы обычно делаете на выходных:</strong></p>
+            <label><input type="checkbox" name="" value="sleep"/>Сплю</label> <br/>           
+            <label><input type="checkbox" name="" value="hanging out with friends" />Гуляю с друзьями</label> <br/>           
+            <label><input type="checkbox" name="" value="i go fishing"/>Хожу на рыбалку</label> <br/>
+            <label><input type="checkbox" name="" value="play games"/>Играю в игры</label> <br/>           
+
+		    <p><strong>Рассказать о формах в книге, посвященной HTML:</strong></p>
+            <select name="1" id="1" >
+            	<option selected="selected">Site frequency</option>
+            </select>
+			
+            <p><strong>Сколько книг вы прочитали за свою жизнь:</strong></p>
+            <label><input type="radio" name="books" value="0-10"/>0-10</label>
+            <br/>
+            <label><input type="radio" name="books" value="11-20"/>11-20</label>
+			<br/>
+            <label><input type="radio" name="books" value="21-50"/>21-50</label>
+            <br/>
+            <label><input type="radio" name="books" value="50+"/>50+</label>
+			<br/>
+            
+            <label><strong>Ваши коментарии:</strong></label><br/>
+            <textarea name="coments" rows="8" cols="50"> </textarea><br/>
+            
+            <select size="3" >
+            	<option selected="selected">Первая позиция</option>
+                <option selected="selected">Вторая позиция</option>
+                <option selected="selected">Третья позиция</option>
+                <option selected="selected">Четвертая позиция</option>
+            </select>
+        </fieldset>
+        
+    	<fieldset> 
+        	<legend><strong>И в заключении</strong></legend>
+            <input type="text" size="40" name="empty" value="Это поле было введено до вас" disabled="disabled"/>
+            <br/>
+            <label>Email:<br/><input type="text" size="40" name="e-mail" value="" /></label>
+            <br/>
+            
+   		    <p><strong>Хотите подписаться на самую модную рассылку спама?</strong><br/>
+            <em>Выберите категорию</em></p>
+            <label><input type="checkbox" name="" value="equipment" />Оборудывание</label> <br/>           
+            <label><input type="checkbox" name="" value="how to cook meals" />Как приготовить обеды</label> <br/>           
+            <label><input type="checkbox" name="" value="make a million in two days" />Заработай миллион за два дня!</label> <br/>       
+
+            
+		    <p><strong>На сколько сложная задача:</strong></p>
+
+            <label><input type="radio" name="complexity" value="not at all" />Совсем нет</label><br/>
+            <label><input type="radio" name="complexity" value="so-so" />Так себе</label><br/>
+            <label><input type="radio" name="complexity" value="barely managed" />Ели справились</label>
+        </fieldset>
+    </form>
+    <br/>
+	<input type="submit" value="Отправить"/>
+</body>
+</html>
