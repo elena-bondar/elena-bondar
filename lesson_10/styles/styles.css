@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(../images/background.png) repeat;
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width:780px;
+	margin:0 auto;
+	background:#FFF;
+	
+}
+
+#header {
+	overflow:hidden;
+	height:208px;
+	width:771px;
+	margin:0 auto;
+	background:url(../images/header.png) no-repeat bottom center;
+	margin-bottom:10px;
+}
+
+#header img {
+	margin-top: 52px;
+	margin-left: 50px;
+}
+
+
+#conteiner {
+	margin:0 auto;
+	width:705px;
+	overflow:hidden;
+}
+
+#conteiner div.interesting {
+	font-family:Trebuchet MS;
+	border-bottom:#FCF1F7 solid 1px;
+	padding-bottom:10px;
+}
+
+#conteiner p {
+	color:#4F4F4F;
+	font-size:13px;
+}
+
+.interesting a {
+	padding:5px 0;
+	background:url(../images/link-menu.png) no-repeat 100% 60%;
+	padding-right:10px;
+	width:115px;
+}
+
+#conteiner a {
+	color:#4B8BBF;
+	font-size:12px;
+	overflow:hidden;
+	text-decoration:none;
+}
+
+.welcome {
+	color:#D777B7;
+	background-color:#FCF1F7;
+}
+
+.links div {
+	width:136px;
+	height:162px;
+	float:left;
+}
+
+.links div+div {
+	margin-left:6px;
+}
+
+.links img {
+	overflow:hidden;
+}
+
+.links div a {
+	background:none;
+	text-align:center;
+	display:block;
+}
+
+.news {
+	width:340px;
+	height:219px;
+	background:#EBF4FB;
+	float:left;
+	padding-left:14px;
+}
+
+.news h2 {
+	margin:0;
+	padding-left:0;
+}
+
+.news ul {
+	font-family:Trebuchet MS;
+	font-size:12px;
+	color:#656565;
+	padding-left:0;
+	list-style:none;
+}
+
+.news a {
+	padding:5px 0;
+	background:url(../images/link-menu.png) no-repeat 100% 60%;
+	padding-right:10px;
+	width:115px;
+}
+
+.popular {
+	width:317px;
+	height:219px;
+	background:#EBF4FB;
+	float:right;
+	padding-left:14px;
+}
+
+.popular h2 {
+	margin:0;
+	padding-left:0;
+}
+
+.popular ul {
+	font-family:Trebuchet MS;
+	font-size:12px;
+	color:#656565;
+	padding-left:0;
+	list-style:none;
+}
+
+.popular a {
+	padding:5px 0;
+	background:url(../images/link-menu.png) no-repeat 100% 60%;
+	padding-right:10px;
+	width:115px;
+	margin-top:10px;
+}
+
+.news+.popular {
+	margin-left:20px;
+}
+
+#footer {
+	height:48px;
+	width:705px;
+	margin:0 auto;
+	font-family:Trebuchet MS;
+	font-size:11px;
+	padding-top:50px;
+}
+
+#footer ul {
+	list-style:none;
+	padding-left:0;
+	margin:0;
+
+}
+
+#footer p {
+	color:#D97FBB;
+	margin:0;
+	text-align:center;
+}
+
+#footer ul li a{
+	float:left;
+	color:#949494;
+	text-decoration:none;
+	padding:5px 10px;
+}
+
+
+
+h2 {
+	color:#4B8BBF;
+	font-size:18px;
+	font-family:Georgia;
+	font-style:italic;
+	padding:10px 10px;
+	background-color:#EBF4FB;
+	margin:10px 0;
+	font-weight:inherit;
+	
+}
