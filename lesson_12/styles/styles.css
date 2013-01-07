@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; background: url(../images/backround.png) repeat-x #414141; color:#000;}
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:none; }
+a:hover                        { text-decoration:none; cursor:pointer; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+h3{ background:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#AC3022; font-weight:normal;font-size:12px; margin-left:15px;}
+#wrapper{ width:1080px; margin:0 auto;}
+#header { width:1080px; height: 548px; background:url(../images/backround_header.png) no-repeat; margin:0 auto;}
+#header a img { margin-top:40px; margin-left:119px;}
+#header ul{ width:129px; height:13px; margin-right:149px; float:right; margin-top:100px;}
+#header ul li { float:left; margin-left:21px;  width:22px; height:13px; display:block;}
+#header ul li a{ width:22px; height:13px; display:block;}
+#header ul li.gb a{ background:url(../images/flag_GB.png) no-repeat;}
+#header ul li.red_flag a{ background:url(../images/flag_2.png) no-repeat;}
+#header ul li.ua a{ background:url(../images/flag_ua.png) no-repeat;}
+#header .center{ width:778px; height:367px; margin:0 auto; background: url(../images/center_background.png) repeat; padding:16px; border: #FEFEFE solid 2px;  -webkit-border-radius: 2px;-moz-border-radius: 2px; border-radius: 2px;}
+#header .center img{ border: #F6F8FA solid 3px; float:left; -webkit-border-radius: 2px;-moz-border-radius: 2px; border-radius: 2px;}
+#header .center div{ width:238px; height:360px; float:right; border: #FEFEFE solid 2px; background:url(../images/discount_background.png) repeat; -webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px; padding:1px;}
+#header .center div div{ width:212px; height:139px; background:url(../images/sale.png) repeat; border:none; -webkit-border-radius: 0;-moz-border-radius: 0; border-radius: 0; padding-left:25px; padding-top:10px; margin-bottom:10px;}
+#header .center div div.sale img{ border:none;}
+#header .center div div.sale img.years{ margin-top:6px; float:left; }
+#header .center div div.sale a{ color:#B1B1B1; font-size: 11px; position: absolute; left: 715px; top: 260px;}
+
+#header .center div form ul{ margin-top:10px; width:220px; margin-left:20px; margin-right:0; }
+#header .center div form ul li{ float:none; width:187px; margin-left:0; height:19px; background:url(../images/background_selec.png) no-repeat; -webkit-border-radius: 5px;-moz-border-radius: 5px; border-radius: 5px;}
+#header .center div form ul li select{ display:block; width:210px; height:19px; margin-top:10px; margin-left:0; border:#E7E7E7 1px solid; -webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;  color:#ACACAC; padding-left:5px; -webkit-appearance: none;-moz-appearance: none;appearance: none;background: transparent url(../images/list_select.png) no-repeat right center; }
+#header .center div button{ background:url(../images/search.png) no-repeat; width:104px; height:22px; border:none; color:#FFF; font-size:12px; margin-left:17px; display:block; cursor:pointer;}
+
+
+#navbar { width:810px; height:63px; margin:0 auto; border-bottom: 2px solid #3F3F3F;}
+#navbar li{ width:135px; height:64px; float:left; border:none; }
+#navbar li.main{ width:131px; background:url(../images/active_menu.png) repeat-x; margin-right:4px;}
+#navbar li.orange div{ width:132px; height:6px; background: url(../images/orange.png) no-repeat;}
+#navbar li.green div{ width:132px; height:6px; background: url(../images/green.png) no-repeat;}
+#navbar li.blue div{ width:132px; height:6px; background: url(../images/blue.png) no-repeat;}
+#navbar li.turquoise div{ width:132px; height:6px; background: url(../images/turquoise.png) no-repeat;}
+#navbar li.white div{ width:132px; height:6px; background: url(../images/white.png) no-repeat;}
+#navbar li a{ width:132px; height:43px; float:left; color:#FFF; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-align:center; padding-top:20px;}
+#navbar li.main a{ padding-top:25px;}
+#navbar li div.border_right{ width:2px; height:64px; background:url(../images/menu_border.png) no-repeat; float:right;}
+
+#conteiner {width:810px; margin: 20px auto;}
+#conteiner li{ border: #fff solid 2px; -webkit-border-radius: 2px;-moz-border-radius: 2px; border-radius: 2px;}
+
+#content{ width: 675px; float:right;}
+#content li{ background:url(../images/content_background.png) repeat-x;; height:301px;  border: #fff solid 3px; -webkit-border-radius: 2px;-moz-border-radius: 2px; border-radius: 2px; padding:1px; }
+#content li+li{ margin-top:4px;}
+#content li img{ border: #6D6D6D solid 1px;}
+#content li div{ float:right; font-family:Arial, Helvetica, sans-serif; margin-right:27px; margin-top:15px;}
+#content li div h2{ font-size:18px; color:#C1341B; text-shadow:1px 1px #CA9E96 ;}
+#content li div p{ display:block; width:221px; font-size:11px; color:#414141; margin-bottom:10px;}
+#content li div p.font14{ font-size:14px; margin:10px 0;}
+#content li div button.buy{ background: url(../images/buy_button.png) no-repeat; width:104px; height:22px; border:none; color:#FFF; font-size:12px;  display:block; cursor:pointer; margin-bottom:10px; margin-right:0;}
+#content li div button.more{background:url(../images/more.png) no-repeat; width:104px; height:22px; border:none; color:#FFF; font-size:12px; display:block; cursor:pointer; color:#414141;  margin-right:0;}
+#content li div button.more:hover{background:url(../images/more_hover.png) no-repeat; color:#FFF;}
+#content li div .price{ width:60px; font-family:Myriad Pro; font-size:12px; float:right; display:block; margin-bottom:0;}
+#content li div .price_black{ width:69px; font-family:Myriad Pro; font-size:12px; float:right; display:block; margin-bottom:0;}
+#content li div .price span{ color:#C1331B; font-family:Myriad Pro; font-size:18px;}
+#content li div .price_black span{ color:#C1331B; font-family:Myriad Pro; font-size:18px;}
+
+#sidebar{ width:133px; float:left; }
+#sidebar li .forums{ height:224px; width:131px; background-color:#E9E9E9;}
+#sidebar li .forums li{ border:none; height: 29px; margin: 0; padding-top: 5px;}
+#sidebar li .forums li.last{ height:51px;}
+#sidebar li .forums li.last a{ display:block;}
+#sidebar li .forums li a{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; margin-left:15px; padding:5px 0; color:#434343;}
+#sidebar li .forums li:hover{ background:url(../images/sidebar_active.png) no-repeat;}
+#sidebar li .forums li.first:hover{ background:none;}
+#sidebar li .forums li img{ }
+
+
+#sidebar li .registration{ height:163px; width:131px; background-color:#E9E9E9;}
+#sidebar li .registration li{ border:none; margin-top:0; }
+#sidebar li .registration li input.sign_in,a{margin-left:15px; }
+#sidebar li .registration li input.login,.pasword{ margin-left:12px; width:104px; height:21px; background:url(../images/login_bg.png) no-repeat; margin-top:5px; margin-bottom:5px; border:none;  -webkit-border-radius: 4px;-moz-border-radius: 4px; border-radius: 4px;}
+#sidebar li .registration li input.sign_in{ background:none; border:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; color:#434343;}
+#sidebar li .registration,.information li h3{padding-top:10px;}
+
+#sidebar li .information{ height:209px; width:131px; background-color:#E9E9E9;}
+#sidebar li .information li{ border:none; margin-top:0;}
+#sidebar li .information li a{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; font-size:12px; margin-left:15px; color:#434343;}
+#sidebar li .information li a:hover{text-decoration:underline; }
+#sidebar li .information li:hover{ background:url(../images/arrow_hover.png) no-repeat 5% 50%;}
+#sidebar li+li{ margin-top:3px;}
+#sidebar li .information li.first_info{ height:35px; background:url(../images/information_background.png) repeat-x;}
+{padding-top: 10px;}
+
+#footer{ width:810px; margin:0 auto;}
+#footer ul{ margin-top:10px;}
+#footer ul li{ float:left;  height:28px; margin-top:10px;}
+#footer ul li.first_footer a{ margin-left:0;}
+#footer ul li img{ float:right; }
+#footer ul li a{ color:#FFF; font-family:Arial, Helvetica, sans-serif; margin-right:18px; height:18px; padding-top:6px; display:block; float:left;}
+#footer ul li span{color:#FFF; font-family:Arial, Helvetica, sans-serif; height:18px; padding-top:6px; margin-left:129px; float:left;}
