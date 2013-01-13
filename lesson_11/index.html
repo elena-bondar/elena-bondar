@@ -29,9 +29,10 @@
                
             </div>
             
-            <h1>Реєстрація</h1>
+            
             <div id="content">
             	<!-- CONTENT -->
+                <h1>Реєстрація</h1>
                 <h2>Як проходитеме реєстрація та набір слухачів?</h2>
                 <p>Ми хочемо надати шанс всім, хто має бажання та схильність до інформаційний технологій здобути практичні знання та роботу в цій сфері за мінімальний період. Нажаль, ми не можемо прийняти всіх бажаючих через обмеження в кількості викладачів та технічних ресурсів. Тому, ми робимо набір в три етапи:</p>
                 <ol>
@@ -42,13 +43,14 @@
                 <p>Не вагайся, реєструйся!</p>
                 
                 <form>
-                	<ul>
-                        <li class="error"><label class="width">Повне ім'я</label><input type="text" size="46" name="firstname" value="Павел Павлович Павлов"/><label class="none">Будь ласка введіть ім'я</label></li>
-                        <li><label class="width">Телефон</label><input type="text" size="40" name="telefone" value=""/><label class="none">Будь ласка введіть номер</label></li>
-                        <li><label class="width">Email</label><input type="text" size="40" name="email" value="adsfk@kjdfi.dko"/><label class="none">Будь ласка введіть email</label></li>
-                        <li><input class="checkbox" type="checkbox" name="" value="" /><label>Я маю ноутбук, який можу використовувати для навчання</label></li>
-                        <li><label class="width">Коротко роскажіть про свій досвід в інформаційних технологіях:</label><textarea></textarea></li>
-                        <li><label class="width last">Введіть цифри</label><img src="images/code.png" width="130" height="48"/><img src="images/arrow.png" width="30" height="18"/><input class="last_input" type="text" size="10" name="numbers" value="46874"/><label class="none">Будь ласка введіть цифри</label></li>
+                	<ul id="registration">
+                        <li><label class="width" for="name">Повне ім'я</label><input type="text" name="name" id="name" class="field" value="Павел Павлович Павлов"/><span class="none">Будь ласка введіть ім'я</span></li>
+                        <li class="error"><label class="width" for="telefone">Телефон</label><input type="text" name="telefone" id="telefone"  class="field" value=""/><span class="none">Будь ласка введіть номер</span></li>
+                        <li><label class="width" for="email">Email</label><input type="text" name="email" value="adsfk@kjdfi.dko" id="email"  class="field"/>
+                        <span class="none">Будь ласка введіть email</span></li>
+                        <li><input class="checkbox" type="checkbox" name="notebook" id="notebook" value="" /><label class="normal" for="notebook">Я маю ноутбук, який можу використовувати для навчання</label></li>
+                        <li><label class="width" for="about-yourself">Коротко роскажіть про свій досвід в інформаційних технологіях:</label><textarea id="about-yourself" name="about-yourself"></textarea></li>
+                        <li><label class="width last">Введіть цифри</label><img src="images/code.png" width="130" height="48"/><img src="images/arrow.png" class="arrow" width="30" height="18"/><input class="last_input" type="text" size="10" name="numbers" value="46874"/><span class="none">Будь ласка введіть цифри</span></li>
                 	</ul>
                     <input class="submit" type="submit" value="Надіслати" />
                 </form>
