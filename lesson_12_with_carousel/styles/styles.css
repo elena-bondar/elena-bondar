@@ -38,7 +38,7 @@ h3{ background:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; c
 #wrapper{ width:1080px; margin:0 auto; overflow: hidden;  background:url(../images/backround_header.png) no-repeat;}
 #header { width:1080px; height: 548px;  margin:0 auto;}
 #header a img { margin-top:40px; margin-left:134px;}
-#header ul{ width:129px; height:13px; margin-right:149px; float:right; margin-top:100px;}
+#header ul{ width:129px; height:13px; margin-right:134px; float:right; margin-top:100px;}
 #header ul li { float:left; margin-left:21px;  width:22px; height:13px; display:block;}
 #header ul li a{ width:22px; height:13px; display:block;}
 #header ul li.gb a{ background:url(../images/flag_GB.png) no-repeat;}
@@ -67,15 +67,26 @@ h3{ background:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; c
 #header .center div.menu button{ background:url(../images/search.png) no-repeat; width:104px; height:22px; border:none; color:#FFF; font-size:12px; margin-left:17px; display:block; cursor:pointer;}
 
 
-#navbar { width:810px; height:63px; margin:0 auto; border-bottom: 2px solid #3F3F3F;}
-#navbar li{ width:135px; height:64px; float:left; border:none; }
-#navbar li.main{ width:131px; background:url(../images/active_menu.png) repeat-x; margin-right:4px;}
-#navbar li.orange div{ width:132px; height:6px; background: url(../images/orange.png) no-repeat;}
-#navbar li.green div{ width:132px; height:6px; background: url(../images/green.png) no-repeat;}
-#navbar li.blue div{ width:132px; height:6px; background: url(../images/blue.png) no-repeat;}
-#navbar li.turquoise div{ width:132px; height:6px; background: url(../images/turquoise.png) no-repeat;}
-#navbar li.white div{ width:132px; height:6px; background: url(../images/white.png) no-repeat;}
-#navbar li a{ width:132px; height:43px; float:left; color:#FFF; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-align:center; padding-top:20px;}
+#navbar { width:813px; height:64px; margin:0 auto; border-bottom: 2px solid #3F3F3F; background:url(../images/navbar-bg.png) no-repeat;}
+#navbar li{ width:133px; height:64px; float:left; border:none; }
+#navbar li+li{ margin-left:3px;}
+#navbar li.red a:hover{ background: #C7381D; }
+#navbar li.orange a:hover{ background:#FF990C; }
+#navbar li.green a:hover{background:#4AB409;}
+#navbar li.blue a:hover{background:#1480EA; }
+#navbar li.turquoise a:hover{background:#089C90;}
+#navbar li.white a:hover{background:#E7E6E2; }
+
+#navbar li.red a:active{ background: #C7381D; }
+#navbar li.orange a:active{ background:#FF990C; }
+#navbar li.green a:active{background:#4AB409;}
+#navbar li.blue a:active{background:#1480EA; }
+#navbar li.turquoise a:active{background:#089C90;}
+#navbar li.white a:active{background:#E7E6E2; }
+
+#navbar li a{ width:133px; height:44px; float:left; color:#FFF; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-align:center; padding-top:20px;}
+#navbar li a:hover{height:45px;}
+#navbar li a:active{height:45px;}
 #navbar li.main a{ padding-top:25px;}
 #navbar li div.border_right{ width:2px; height:64px; background:url(../images/menu_border.png) no-repeat; float:right;}
 
